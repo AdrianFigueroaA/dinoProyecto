@@ -88,7 +88,7 @@
         No hubo dinosaurios que permanecieran siempre en el mar, como las
         ballenas y los delfines actuales. Por supuesto, podían vadear aguas poco
         profundas, o incluso nadar por el mar a cortas distancias, como los
-        caballos de hoy. Pero no vivían en el mar; Así; animales como el
+        caballos de hoy. Pero no vivían en el mar; Así animales como el
         Plesiosaurus, que era marino, no era un dinosaurio.
       </p>
 

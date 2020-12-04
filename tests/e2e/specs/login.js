@@ -6,9 +6,9 @@ describe('probando dinologin', () => {
     cy.get('#usuario').type('dino@dino.com')
     cy.get('#pass').type('12345678')
     cy.get('#botonlog').click()
-    cy.wait(2000);
+    cy.wait(4000);
     cy.get('#botonlogout').click()
-    cy.wait(2000);
+    cy.wait(3000);
     
   })
 })

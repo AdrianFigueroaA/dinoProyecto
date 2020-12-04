@@ -2,7 +2,7 @@
   <div>
     <b-container>
       <div class="formulario1">
-        <h2>Inicio de Sesion</h2>
+        <h2>Inicio de Sesión</h2>
         <form @submit.prevent="login" class="formulario">
           <h5 class="mx-auto">Ingresa tus Datos</h5>
           <input  id="usuario" v-model="usuario" type="text" placeholder="Usuario" />

@@ -1,14 +1,9 @@
 <template>
   <div id="app">
     <NavBar />
-
-
-      <transition name="fade" mode="out-in">
-        <router-view />
-      </transition>
-    
-
-    
+    <transition name="fade" mode="out-in">
+      <router-view />
+    </transition>
   </div>
 </template>
 
@@ -24,21 +19,17 @@ export default {
   },
 
   created() {
-    this.getData()
+    this.getData();
   },
 
   methods: {
     ...mapActions("Datos", ["getData"]),
   },
-
-
-
-  
 };
 </script>
 
 <style lang="scss">
-// configuracion de la transicion de las vistas
+
 .fade-enter-active {
   transition: all 1s ease;
 }

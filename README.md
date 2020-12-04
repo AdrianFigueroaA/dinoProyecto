@@ -3,6 +3,7 @@
 
 _DinoAustral es una aplicación desarrollada con VueJS (bootstrap-vue) y Firebase para la divulgacion cientifica de los animales prehistoricos que poblaron chile y latinoamerica._
 
+
 _Visita el Proyecto desde éste enlace:_
 
 
@@ -52,20 +53,28 @@ _El autor de este proyecto es:_
 
 
 
-## Project setup
+## Instalar node modules y dependencias
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+###  levantar un servidor local ejecutar en terminal
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+###  compilar a produccion el proyecto ejecutar en terminal
 ```
 yarn build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+###  hacer deploy de la aplicacion ejecutar en terminal
+```
+firebase deploy --only hosting
+```
+###  correr los test e2e  ejecutar en terminal
+```
+npm run test:e2e
+```
+

@@ -171,17 +171,6 @@ h2 {
   margin-bottom: 20px;
 }
 
-.table thead th {
-  vertical-align: bottom;
-  border-bottom: 2px solid black;
-}
-.table th,
-.table td {
-  padding: 1px;
-  vertical-align: top;
-  border-top: 2px solid black;
-}
-
 .card-text {
   font-family: "Fjalla One", sans-serif;
   font-size: 20px;

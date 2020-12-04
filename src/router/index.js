@@ -9,6 +9,7 @@ const routes = [
     path: "/",
     name: "Home",
     component: Home,
+    alias: ["/inicio", "/home", "/portada", "/"],
   },
   {
     path: "/especies",
@@ -79,6 +80,7 @@ const routes = [
     name: "LoginAdmin",
     component: () =>
       import(/* webpackChunkName: "loginAdmin" */ "../views/LoginAdmin.vue"),
+      alias: ["/admin", "/login"],
   },
   {
     path: "*",
@@ -105,7 +107,7 @@ router.beforeEach((to, from, next) => {
   } else if (autorizacion && !usuario) {
     next("home");
   } else {
-  //   
+  
    }
    next();
 });

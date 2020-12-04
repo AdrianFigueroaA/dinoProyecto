@@ -72,15 +72,7 @@
               id="curiosidades"
             ></b-form-input>
 
-            <b-form-file
-              v-model="file1"
-              :state="Boolean(file1)"
-              placeholder="Elige la Imagen a Subir..."
-              drop-placeholder="Elige la Imagen a Subir..."
-            ></b-form-file>
-            <div class="mt-3">
-              Imagen Seleccionada: {{ file1 ? file1.name : "" }}
-            </div>
+        
           </b-form>
         </div>
         <b-button
@@ -88,7 +80,12 @@
           variant="success"
           class="mt-3 button-add"
           block
-          @click="AgregarDino(), ClearData(), $bvModal.hide('bv-modal-Agregar')"
+          @click="
+            AgregarDino(),
+              ClearData(),
+              $bvModal.hide('bv-modal-Agregar'),
+             subirImagen() 
+          "
           >Agregar Especimen</b-button
         >
         <b-button
@@ -119,8 +116,8 @@ export default {
       tipo: "",
       curiosidades: "",
       largo: "",
-      file1: null,
     },
+    
   }),
   methods: {
     ...mapActions("Datos", ["addData"]),

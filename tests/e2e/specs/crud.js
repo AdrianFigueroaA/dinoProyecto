@@ -12,13 +12,14 @@ describe('probando crud', () => {
         cy.get('#largo').type('2 metros')
         cy.get('#peso').type('200 kilos')
         cy.get('#datacion').type('100 millones de años')
+        cy.get('#alimentacion').type('carnivoro')
         cy.get('#tipo').type('dromeosaurio')
         cy.get('#curiosidades').type('dinosaurio muy rapido')
         cy.get('#agregarEspecimen').click()
         cy.wait(3000);
         cy.get('#borrar').click()
-        cy.wait(3000);
-        cy.get('#botonlogout').click()
+        cy.wait(4000);
+        
 
 
       });

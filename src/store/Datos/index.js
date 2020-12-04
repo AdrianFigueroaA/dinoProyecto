@@ -1,5 +1,4 @@
 import firebase from "firebase";
-import createPersistedState from "vuex-persistedstate";
 
 export default {
   namespaced: true,
@@ -24,8 +23,9 @@ export default {
     },
   },
   actions: {
-    getData({ commit }) {
-      firebase
+    async getData({ commit }) {
+
+     await firebase
         .firestore()
         .collection("especies")
         .onSnapshot((snapshot) => {
@@ -72,9 +72,9 @@ export default {
       }
     },
 
-    async borrarDino({ commit }, id) {
+     borrarDino({ commit }, id) {
       try {
-        await firebase
+         firebase
           .firestore()
           .collection("especies")
           .doc(id)
@@ -84,10 +84,9 @@ export default {
       }
     },
 
-    async editDino({ commit }, dino ) {
-      console.log(dino.id, dino.data)
+     editDino({ commit }, dino ) {
       try {
-        await firebase
+         firebase
           .firestore()
           .collection("especies")
           .doc(dino.id)

@@ -2,17 +2,17 @@
   <div class="about">
     <b-container class="container-article">
       <div class="description-about">
-        <h1>Quienes Somos?</h1>
+        <h1>Quiénes Somos?</h1>
 
         <p>
-          Somos una web dedicada a la divulgacion de animales
-          prehistoricos,sobre todo dinosaurios de chile y latinoamérica.muchas
-          veces muy poco conocidos por los habitantes de latam,que pensarias si
-          te contara que en sudamerica existio un dinosaurio de mayor tamaño y
-          ferocidad que el famoso T-rex! o que en chile se encontro el eslabon
-          perdido de los dinosaurios la separacion entre carnivoros y
-          herbivoros,todo eso encontraras en esta pagina de forma clara y
-          sencilla...
+          Somos un portal dedicado a la divulgación de animales
+          prehistóricos, sobre todo dinosaurios de chile y latinoamérica, muchas
+          veces muy poco conocidos por los habitantes de sudamérica. ¿Que pensarías si
+          te contara que en sudamérica existió un dinosaurio de mayor tamaño y
+          ferocidad que el famoso T-rex?! o que en Chile se encontró el eslabón
+          perdido de los dinosaurios, la separación entre carnívoros y
+          herbívoros, todo eso lo encontrarás aquí de forma clara y
+          sencilla.
         </p>
       </div>
 
@@ -52,9 +52,7 @@ margin-top: 20px;
   padding-top: 80px;
   margin: auto;
   font-family: "Open Sans", sans-serif;
-  text-align: justify;
-
-    
+  text-align: justify;   
 }
 
 .container-article {
@@ -69,8 +67,6 @@ margin-top: 20px;
   margin-bottom: 20px;
   margin-top: 50px;
   background-position: center;
-
-
 }
 
 @media (max-width: 500px) {

@@ -2,9 +2,9 @@
   <div>
     
       <div class="portada">
-        <h1 class="titulo">Dinosaurios de Chile</h1>
+        <h1 class="titulo">DinoAustral</h1>
 
-        <span class="subtext">y Latinoamérica</span>
+        <span class="subtext">Dinosaurios de Chile y Latinoamérica</span>
       </div>
    
   </div>

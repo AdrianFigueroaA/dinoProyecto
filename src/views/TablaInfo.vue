@@ -3,17 +3,17 @@
     <b-container fluid>
 
       <div  class="botonLogout">
-<b-button  id="botonlogout" variant="danger" @click="logOut()">Cerrar Sesion</b-button>
+<b-button  id="botonlogout" variant="danger" @click="logOut()">Cerrar Sesión</b-button>
       </div>
       
 
       <h1>
-        Portal de Modificacion de Especimenes
+        Portal de Modificación de Especímenes
       </h1>
           <AgregarDinos class="agregar" />
        
       <div  class="tabla">
-        <b-table-simple hover small caption-top responsive>
+        <b-table-simple>
         
           <b-thead>
             <b-tr>
@@ -68,8 +68,6 @@ export default {
     EditarDinos,
   },
 
-
-
   data() {
     return {
       dinosaurio: {
@@ -99,7 +97,7 @@ export default {
     },
 
     formatText(text) {
-      return text.slice(0, 100) + "...";
+      return text.slice(0, 70) + "...";
     },
 
     logOut() {
@@ -120,10 +118,26 @@ export default {
 <style lang="scss">
 .tabla {
 
-  border-radius: 10px;
+  
   font-family: "Open Sans", sans-serif;
   margin-top: 50px;
+  th{
+    border: 0;
+  }
+
+
+  .table thead th{
+
+     border-bottom: 0;
+  }
+
+  td{
+    vertical-align: middle;
+  }
+
+
 }
+
 
 
 .link-id {

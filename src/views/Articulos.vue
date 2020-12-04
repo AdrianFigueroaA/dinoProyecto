@@ -15,7 +15,7 @@
           <b-col md="6">
             <b-card-body title="Pelagornis chilensis">
               <b-card-text>
-                El Ave mas grande del mundo vivió en Chile!
+                El Ave mas grande del mundo vivió en Chile
               </b-card-text>
               <b-link :to="{ name: 'Articulo1' }" class="card-link"
                 >Leer Más!</b-link
@@ -40,7 +40,7 @@
               title="El dinosaurio chileno que revolucionó la paleontología mundial"
             >
               <b-card-text>
-                El eslabón perdido del parque jurásico patagónico!
+                El eslabón perdido del parque jurásico patagónico
               </b-card-text>
               <b-link :to="{ name: 'Articulo3' }" class="card-link"
                 >Leer Más!</b-link
@@ -82,8 +82,6 @@ export default {};
 
 <style>
 .articulos {
-  
-  
   margin: auto;
   font-family: "Fjalla One", sans-serif ;
   text-align: center !important;
@@ -109,8 +107,8 @@ h2{
 
   margin-top: 20px;
   margin-bottom: 25px;
-
 }
+
 @media (max-width: 500px) {
   .articulos {
     padding-top: 50px;
